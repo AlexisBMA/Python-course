@@ -1,0 +1,10 @@
+import time
+print("Using time(): ", time.time())
+print("Using perf_counter(): ", time.perf_counter())
+print("Using monotonic(): ", time.monotonic())
+print("Using process_time(): ", time.process_time())
+print()
+print(time.get_clock_info('time'))
+print(time.get_clock_info('perf_counter'))
+print(time.get_clock_info('monotonic'))
+print(time.get_clock_info('process_time'))

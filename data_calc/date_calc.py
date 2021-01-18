@@ -8,7 +8,7 @@ import time
 # print("Month: ", time_here[1], time_here.tm_mon)
 # print("Day: ", time_here[2], time_here.tm_mday)
 
-from time import time as my_timer
+from time import perf_counter  as my_timer
 import random
 
 input("Press enter to start")
