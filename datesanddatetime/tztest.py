@@ -26,4 +26,3 @@ for x in sorted(pytz.country_names):
             print("\t\t{}: {}".format(zone, local_time))
     else:
         print("\t\tNo timezone defined")
- 
